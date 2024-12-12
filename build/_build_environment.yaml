@@ -71,21 +71,21 @@ built_resources:
       externalId: icapi_assets_extractor
     source:
       path: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/functions/functions.yaml
-      hash: 7a3f72cf
+      hash: 1485da72
     kind: Function
     destination: build/functions/1.functions.Function.yaml
   - identifier:
       externalId: icapi_datapoints_extractor
     source:
       path: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/functions/functions.yaml
-      hash: 7a3f72cf
+      hash: 1485da72
     kind: Function
     destination: build/functions/1.functions.Function.yaml
   - identifier:
       externalId: icapi_timeseries_extractor
     source:
       path: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/functions/functions.yaml
-      hash: 7a3f72cf
+      hash: 1485da72
     kind: Function
     destination: build/functions/1.functions.Function.yaml
   - identifier:
@@ -281,13 +281,13 @@ read_modules:
 - dir: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api
   resource_directories:
   - functions
-  - auth
   - raw
-  - data_sets
   - transformations
+  - data_sets
+  - auth
   - extraction_pipelines
 - dir: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/use_cases/oee
   resource_directories:
-  - functions
-  - auth
   - data_sets
+  - auth
+  - functions
