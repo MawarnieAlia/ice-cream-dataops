@@ -42,6 +42,3 @@ jobs:
         working-directory: ./
         run: |
           poetry run cdf-tk deploy --env=prod
-
-
-#Change
