@@ -280,12 +280,12 @@ read_modules:
   - auth
 - dir: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api
   resource_directories:
-  - transformations
-  - auth
-  - extraction_pipelines
-  - data_sets
   - functions
+  - auth
   - raw
+  - data_sets
+  - transformations
+  - extraction_pipelines
 - dir: /home/user/workspace/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/use_cases/oee
   resource_directories:
   - functions
